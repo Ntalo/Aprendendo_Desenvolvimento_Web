@@ -1,0 +1,36 @@
+/*Font Family
+Tipo de fonte de um elemento
+Lista de fontes e ordem de prioridade
+inclui fallback font --> */
+--css
+/*Exemplo1- fonte_weight*/
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+/*Exemplo2-font_familly*/
+
+p{
+font-weight: bold;
+
+}
+/*Exemplo3- font style*/
+h2{
+  
+    font-style: italic;
+     font-size: 18px;
+}
+/*Exemplo4- fonte variant e font stretch*/
+p1 {
+	font-variant: small-caps;
+}
+/*
+<!--Alguns tipos de fonts:
+serif (com serifa)-->
+
+/*Exemplo3*/
+h3{
+  text-decoration: underline; /* shorthand */
+}
+p2 {
+  text-decoration: wavy overline blue; /* shorthand */
+}

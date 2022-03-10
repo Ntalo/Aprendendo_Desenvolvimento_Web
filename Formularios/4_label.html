@@ -1,0 +1,38 @@
+<!--
+    Um elemento HTML <label> representa uma legenda para um item em uma interface de usuário. Ele pode estar associado com um elemento de controle, colocando este dentro do elemento label, ou usando o atributo for. Tal controle é chamado o controle etiquetado do elemento etiqueta. Um input pode ser associado a diversas etiquetas (<label>s).
+
+As categorias de conteúdo Flow content, phrasing content, interactive content, form-associated element, palpable content.
+conteúdo permitido Phrasing content, mas há elementos do rótulo descendente. Nenhum outro do que o controle rotulado elementos labelable são permitidos.
+
+Tag omissão None, both the starting and ending tag are mandatory.
+
+Elementos pai permitidas Qualquer elemento que aceita phrasing content.
+
+DOM interface HTMLLabelElement (en-US)
+
+--------------------------------------------------------
+Atributos
+A tecla de atalho para acessar este elemento a partir do teclado.
+
+accesskey HTML 4 HTML5
+A tecla de atalho para acessar este elemento a partir do teclado.
+
+for
+O ID de um elemento de formulário relacionados com labelable no mesmo documento como o elemento label. O primeiro elemento tal no documento com uma ID correspondente ao valor do atributo é o controle marcado for este elemento etiqueta.
+Nota: Um elemento etiqueta pode ter tanto um for o atributo e um elemento de controlo continham, enquanto os pontos de atributo para o elemento de controlo contido.
+
+form HTML5
+O elemento de forma que o elemento label está associado a (seu proprietário formulário). O valor do atributo deve ser uma identificação de um <form> elemento no mesmo documento. Se este atributo não for especificado, este elemento <label> deve ser um descendente de uma <form> elemento. Este atributo permite que você coloque elementos do rótulo em qualquer lugar dentro de um documento, e não apenas como descendentes de seus elementos de formulário.
+-->
+
+<label>
+    Nome:
+    <input type="text">
+</label>
+
+
+
+<label for="sobrenome">
+   Sobrenome
+</label>
+<input id="sobrenome"type="text">

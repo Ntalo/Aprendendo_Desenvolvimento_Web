@@ -34,3 +34,8 @@ h3{
 p2 {
   text-decoration: wavy overline blue; /* shorthand */
 }
+/*exemplo4 Text align*/
+h5{
+	text-align: center;
+
+}
